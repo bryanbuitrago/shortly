@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <section id='hero'>
       {/* Container */}
-      <div className='flex flex-col-reverse mx-auto p-6 lg:flex-row'>
+      <div className='container flex flex-col-reverse mx-auto p-6 lg:flex-row'>
         {/* Left Side Content Container */}
         <div className='flex flex-col space-y-10 mb-44 lg:mt-16 lg:w-1/2 lg:text-left'>
           <HeroContent />
