@@ -14,7 +14,7 @@ const NavBar = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
   return (
-    <nav className='relative mx-auto p-6'>
+    <nav className='container relative mx-auto p-6'>
       {/* Container */}
       <div className='flex items-center justify-between'>
         {/* Logo/Menu Container */}
