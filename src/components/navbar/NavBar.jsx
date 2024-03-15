@@ -1,8 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import HamburgerButton from '../HamburgerButton';
-import MobileMenu from '../MobileMenu';
+import HamburgerButton from './HamburgerButton';
+import NavbarMobileMenu from './NavbarMobileMenu';
 import NavbarLeftMenu from './NavbarLeftMenu';
 import NavbarLogo from './NavbarLogo';
 import NavbarRightBtns from './NavbarRightBtns';
@@ -31,7 +31,7 @@ const NavBar = () => {
         />
       </div>
       {/* Mobile Menu */}
-      <MobileMenu
+      <NavbarMobileMenu
         onClickToggleMobileMenu={onClickToggleMobileMenu}
         isMobileMenuOpen={isMobileMenuOpen}
       />
