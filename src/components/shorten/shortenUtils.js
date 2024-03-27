@@ -12,7 +12,7 @@ export const isValidUrl = (url) => {
 };
 
 export const ifErrorBorderRed = (errorMessage) => {
-  return errorMessage ? 'border-2 border-red-500' : '';
+  return errorMessage ? 'border-2 border-red' : '';
 };
 
 export const ifSuccessBorderGreen = (errorMessage, inputValue) => {
