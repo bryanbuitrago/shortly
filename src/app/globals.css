@@ -4,7 +4,7 @@
 
 /* ===<< Shortly Starts >>=== */
 #cta {
-  background-image: url('/shortly-web-app/images/bg-boost-desktop.svg');
+  background-image: url('/images/bg-boost-desktop.svg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -55,7 +55,7 @@
   transform: rotate(45deg) translateY(6px) translateX(6px);
 }
 
-.shortly-hide-hamburger-middle {
+.hide-hamburger-middle {
   display: none;
 }
 
