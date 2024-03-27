@@ -59,7 +59,7 @@ const ShortenForm = () => {
       {errorMessage && (
         <div
           id='err-msg'
-          className='absolute left-7 bottom-3 text-red-500 text-sm italic'
+          className='absolute left-7 bottom-3 text-red text-sm italic'
         >
           {errorMessage}
         </div>
