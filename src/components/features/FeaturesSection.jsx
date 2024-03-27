@@ -4,7 +4,7 @@ import { BOXES_DATA } from './featuresData';
 const FeaturesSection = () => {
   return (
     <section id='features' className='pb-32 bg-gray-100'>
-      <div className='relative flex flex-col items-start px-6 md:flex-row md:space-x-7'>
+      <div className='container mx-auto relative flex flex-col items-start px-6 md:flex-row md:space-x-7'>
         {/*  Horizontal Line  */}
         <div className='hidden absolute top-24 w-10/12 left-16 h-3 bg-shortly-cyan md:block'></div>
         {/*  Vertical Line */}
