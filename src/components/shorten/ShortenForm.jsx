@@ -33,7 +33,7 @@ const ShortenForm = () => {
     <form
       id='link-form'
       className={`relative flex flex-col w-full p-10 -top-16 space-y-4 
-                 bg-shortly-darkViolet rounded-lg md:flex-row md:space-y-0 
+                 bg-darkViolet rounded-lg md:flex-row md:space-y-0 
                  md:space-x-3 ${ifErrorBorderRed} ${ifSuccessBorderGreen}`}
       onSubmit={handleSubmit}
     >
