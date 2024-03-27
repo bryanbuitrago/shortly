@@ -39,10 +39,7 @@ const NavbarMobileMenu = ({ isMobileMenuOpen, onClickToggleMobileMenu }) => {
         >
           Login
         </Link>
-        <Link
-          className='w-full py-3 text-center rounded-full bg-shortly-cyan'
-          href='#'
-        >
+        <Link className='w-full py-3 text-center rounded-full bg-cyan' href='#'>
           Sign Up
         </Link>
       </div>

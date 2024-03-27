@@ -43,12 +43,12 @@ const ShortenForm = () => {
         id='link-input'
         placeholder='Shorten a link here...'
         className='flex-1 p-3 border-2 rounded-lg placeholder-yellow-500 
-                    focus:outline-none focus:border-shortly-cyan'
+                    focus:outline-none focus:border-cyan'
         onChange={handleInputChange}
       />
       <button
         type='submit'
-        className='px-10 py-3 text-white bg-shortly-cyan rounded-lg 
+        className='px-10 py-3 text-white bg-cyan rounded-lg 
                  hover:bg-cyan-light focus:outline-none md:py-2'
       >
         Shorten It!

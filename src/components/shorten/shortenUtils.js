@@ -16,5 +16,5 @@ export const ifErrorBorderRed = (errorMessage) => {
 };
 
 export const ifSuccessBorderGreen = (errorMessage, inputValue) => {
-  return !errorMessage && inputValue ? 'border-shortly-cyan' : '';
+  return !errorMessage && inputValue ? 'border-cyan' : '';
 };

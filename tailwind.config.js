@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'shortly-cyan': 'hsl(180, 66%, 49%)',
+        cyan: 'hsl(180, 66%, 49%)',
         'cyan-light': 'hsl(180, 66%, 69%)',
         'shortly-darkViolet': 'hsl(257, 27%, 26%)',
         'shortly-red': 'hsl(0, 87%, 67%)',
