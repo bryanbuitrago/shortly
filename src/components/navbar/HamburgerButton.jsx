@@ -12,14 +12,12 @@ const HamburgerButton = ({ isMobileMenuOpen, onClickToggleMobileMenu }) => {
     <button
       type='button'
       id='menu-btn'
-      className='block shortly-hamburger md:hidden focus:outline-none'
+      className='block hamburger md:hidden focus:outline-none'
       onClick={onClickToggleMobileMenu}
     >
-      <span className={`${topBarAnimation} shortly-hamburger-top`}></span>
-      <span
-        className={`${middleBarVisibility} shortly-hamburger-middle`}
-      ></span>
-      <span className={`${bottomBarAnimation} shortly-hamburger-bottom`}></span>
+      <span className={`${topBarAnimation} hamburger-top`}></span>
+      <span className={`${middleBarVisibility} hamburger-middle`}></span>
+      <span className={`${bottomBarAnimation} hamburger-bottom`}></span>
     </button>
   );
 };
