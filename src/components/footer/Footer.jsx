@@ -24,7 +24,7 @@ const Footer = () => {
               alt='facebook'
               width={30}
               height={30}
-              className='shortly-ficon'
+              className='ficon'
             />
           </Link>
           <Link href='#'>
@@ -33,7 +33,7 @@ const Footer = () => {
               alt='twitter'
               width={30}
               height={30}
-              className='shortly-ficon'
+              className='ficon'
             />
           </Link>
           <Link href='#'>
@@ -42,7 +42,7 @@ const Footer = () => {
               alt='pinterest'
               width={30}
               height={30}
-              className='shortly-ficon'
+              className='ficon'
             />
           </Link>
           <Link href='#'>
@@ -51,7 +51,7 @@ const Footer = () => {
               alt='instagram'
               width={30}
               height={30}
-              className='shortly-ficon'
+              className='ficon'
             />
           </Link>
         </div>
