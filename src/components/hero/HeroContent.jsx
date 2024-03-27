@@ -7,8 +7,8 @@ const HeroContent = () => {
         More than just shorter links
       </h1>
       <p className='text-2xl text-center text-gray-400 lg:max-w-md lg:text-left'>
-        Build your brand's recognition and get detailed insights on how your
-        links are performing.
+        Build your brand&apos;s recognition and get detailed insights on how
+        your links are performing.
       </p>
       <div className='mx-auto lg:mx-0'>
         <Link
