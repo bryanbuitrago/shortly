@@ -10,7 +10,7 @@ const FooterMenuColumns = () => {
           <Link
             key={itemIndex}
             href='#'
-            className='capitalize text-shortly-grayishViolet hover:text-cyan'
+            className='capitalize text-grayishViolet hover:text-cyan'
           >
             {item}
           </Link>
