@@ -49,7 +49,7 @@ const ShortenForm = () => {
       <button
         type='submit'
         className='px-10 py-3 text-white bg-cyan rounded-lg 
-                 hover:bg-cyan-light focus:outline-none md:py-2'
+                 hover:bg-cyanLight focus:outline-none md:py-2'
       >
         Shorten It!
       </button>

@@ -7,7 +7,7 @@ const CtaSection = () => {
         </h5>
         <button
           className='px-10 py-5 mx-auto text-2xl font-bold text-white rounded-full
-                             bg-cyan hover:bg-cyan-light md:text-base
+                             bg-cyan hover:bg-cyanLight md:text-base
                              md:py-3 focus:outline-none'
         >
           Get Started
