@@ -16,7 +16,7 @@
 
 /* HAMBURGER MENU */
 
-.shortly-hamburger {
+.hamburger {
   cursor: pointer;
   width: 24px;
   height: 24px;
@@ -24,9 +24,9 @@
   position: relative;
 }
 
-.shortly-hamburger-top,
-.shortly-hamburger-middle,
-.shortly-hamburger-bottom {
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
   content: '';
   position: absolute;
   width: 24px;
@@ -38,15 +38,15 @@
   transition: all 0.5s;
 }
 
-.shortly-hamburger-middle {
+.hamburger-middle {
   transform: translateY(7px);
 }
 
-.shortly-hamburger-bottom {
+.hamburger-bottom {
   transform: translateY(14px);
 }
 
-.shortly-open {
+.open {
   transform: rotate(90deg);
   transform: translateY(0px);
 }
