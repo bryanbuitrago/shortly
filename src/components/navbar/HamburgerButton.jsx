@@ -1,8 +1,6 @@
 const HamburgerButton = ({ isMobileMenuOpen, onClickToggleMobileMenu }) => {
   const topBarAnimation = isMobileMenuOpen ? 'animate-hamburger-top' : '';
-  const middleBarVisibility = isMobileMenuOpen
-    ? 'shortly-hide-hamburger-middle'
-    : '';
+  const middleBarVisibility = isMobileMenuOpen ? 'hide-hamburger-middle' : '';
   const bottomBarAnimation = isMobileMenuOpen ? 'animate-hamburger-bottom' : '';
   return (
     <button
