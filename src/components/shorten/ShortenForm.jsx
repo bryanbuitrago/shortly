@@ -1,26 +1,14 @@
 'use client';
 import { useState } from 'react';
+import {
+  ifErrorBorderRed,
+  ifSuccessBorderGreen,
+  isValidUrl,
+} from './shortenUtils';
 
 const ShortenForm = () => {
   const [inputValue, setInputValue] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
-
-  const ifErrorBorderRed = errorMessage ? 'border-2 border-red-500' : '';
-  const ifSuccessBorderGreen =
-    !errorMessage && inputValue ? 'border-shortly-cyan' : '';
-
-  const isValidUrl = (url) => {
-    const urlPattern = new RegExp(
-      '^(https?:\\/\\/)?' + // protocol
-        '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|' + // domain name
-        '((\\d{1,3}\\.){3}\\d{1,3}))' + // OR ip (v4) address
-        '(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*' + // port and path
-        '(\\?[;&a-z\\d%_.~+=-]*)?' + // query string
-        '(\\#[-a-z\\d_]*)?$',
-      'i'
-    ); // fragment locator
-    return !!urlPattern.test(url);
-  };
 
   const handleInputChange = (e) => {
     setInputValue(e.target.value);
