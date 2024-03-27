@@ -1,6 +1,6 @@
 const CtaSection = () => {
   return (
-    <section id='cta' className='py-24 bg-shortly-veryDarkViolet'>
+    <section id='cta' className='py-24 bg-veryDarkViolet'>
       <div className='flex flex-col p-2 space-y-6'>
         <h5 className='mx-auto space-y-10 text-4xl font-bold text-center text-white'>
           Boost your links today

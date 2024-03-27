@@ -1,5 +1,5 @@
 const ShortenLink = ({ index, standardUrl, shortenUrl }) => {
-  const secondBtnColorViolet = index === 1 ? 'bg-shortly-veryDarkViolet' : '';
+  const secondBtnColorViolet = index === 1 ? 'bg-veryDarkViolet' : '';
   return (
     <div
       className='flex flex-col items-center justify-between 
@@ -7,7 +7,7 @@ const ShortenLink = ({ index, standardUrl, shortenUrl }) => {
     >
       <p
         className='font-bold text-center 
-                   text-shortly-veryDarkViolet md:text-left'
+                   text-veryDarkViolet md:text-left'
       >
         {standardUrl}
       </p>

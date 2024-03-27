@@ -15,7 +15,7 @@ const FeatureBox = ({ index, imgSrc, title, description }) => {
       {/* ===>> Image Possitioning <<=== */}
       <div className='absolute -ml-10 left-1/2 -top-10 md:left-16'>
         {/* ===>> Image Container For Background & Center <<=== */}
-        <div className='flex items-center justify-center w-20 h-20 p-4 rounded-full bg-shortly-veryDarkViolet'>
+        <div className='flex items-center justify-center w-20 h-20 p-4 rounded-full bg-veryDarkViolet'>
           <Image src={imgSrc} alt='icon' width={100} height={100} />
         </div>
       </div>

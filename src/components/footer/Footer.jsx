@@ -4,7 +4,7 @@ import FooterMenuColumns from './FooterMenuColumns';
 
 const Footer = () => {
   return (
-    <footer className='py-16 bg-shortly-veryDarkViolet'>
+    <footer className='py-16 bg-veryDarkViolet'>
       <div
         className='container flex flex-col items-center justify-between mx-auto
                    space-y-16 md:flex-row md:space-y-0 md:items-start'
